@@ -3,8 +3,9 @@ Web-API for [uuidtools.com](https://www.uuidtools.com) website that provides a f
 
 ## Example
 ```python
-import uuid_tools
-uuid_tools = uuid_tools.UUIDTools()
-decoded_uuid = uuid_tools.decode_uuid(uuid="")
+from uuid_tools import UuidTools
+
+uuidt = UUIDTools()
+decoded_uuid = uuidt.decode_uuid(uuid="")
 print(decoded_uuid)
 ```
